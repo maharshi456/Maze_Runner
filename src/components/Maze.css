@@ -1,0 +1,28 @@
+.maze {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .row {
+    display: flex;
+  }
+  
+  .cell {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  .cell.wall {
+    background-color: black;
+  }
+  
+  .cell.path {
+    background-color: white;
+  }
+
+  .cell.runner {
+    background-color: rgb(94, 212, 252);
+  }
